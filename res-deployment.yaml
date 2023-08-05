@@ -1,0 +1,41 @@
+###
+### A complete description of a Prefect Deployment for flow 'res'
+###
+name: test
+description: null
+version: 37e44fb2501ed5eb46541503d92d29b4
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: res
+manifest_path: null
+storage: null
+path: E:\gits\deploy
+entrypoint: test.py:res
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-08-05T07:02:29.058665+00:00'
+triggers: []
